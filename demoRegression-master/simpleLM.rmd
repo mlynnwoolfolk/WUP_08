@@ -94,10 +94,10 @@ plot(LENGTH~WEIGHT,data=bears)
 abline(weightModel)
 summary.lm(weightModel)
 ```
-Adjusted $r^2$ for the weight model = 0.74, this is less than the adjusted $r^2$ for neck, so this model is not as good as the neck model.
+Adjusted $r^2$ for the weight model = 0.74, this is less than the adjusted $r^2$ for neck, so this model is not as good as the neck model.  
 
 
-### Conclusion
+### Conclusion  
 Overall, the best model is LENGTH~HEADLEN because it has the greatest adjusted $r^2$ of 0.84, while the other models had much lower adjusted $r^2$'s     
 
 
