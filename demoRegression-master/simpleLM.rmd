@@ -94,7 +94,6 @@ plot(LENGTH~WEIGHT,data=bears)
 abline(weightModel)
 summary.lm(weightModel)
 ```
-
 Adjusted $r^2$ for the weight model = 0.74, this is less than the adjusted $r^2$ for neck, so this model is not as good as the neck model.
 
 
